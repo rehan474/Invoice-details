@@ -7,7 +7,6 @@ const selectedCustomer = ref(null);
 
 const emit = defineEmits(['select-customer']);
 
-// Fetch customer names from API based on input
 const fetchCustomers = async (event) => {
   searchQuery.value = event.target.value.trim();
 
