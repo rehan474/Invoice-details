@@ -1,0 +1,138 @@
+.container {
+    max-width: 400px;
+    margin: 50px 0;
+  }
+
+.app-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+ 
+  }
+  
+
+  h2 {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;  
+  }
+  
+
+  .left-section {
+    flex: 1;
+    text-align: left;
+  }
+  
+
+  .right-section {
+    flex: 1;
+    text-align: right;
+  }
+  
+
+  .invoice-row {
+    margin-top: 20px;
+  }
+  
+
+  
+  
+  .display-selected {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .customer-search {
+    position: relative;
+    width: 300px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+ 
+.item-search-container {
+  position: relative;
+}
+
+
+.suggestion-list {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;    
+  left: 0;
+  width: 100%;
+  z-index: 1000;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-list li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease-in-out;
+}
+
+.suggestion-list li:hover {
+  background: #007bff;
+  color: white;
+}
+
+.selected-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+}
+
+
+.invoice-container {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.label-invoice {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+.invoice-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  width: 100%;
+  margin-top: 10px;
+}
